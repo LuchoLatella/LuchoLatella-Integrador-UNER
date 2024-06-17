@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "id": 1,
+        "patente": "AF324MM",
+        "marca": "FIAT",
+        "modelo": "CRONOS",
+        "tipo": "SEDAN 4 PUERTAS",
+        "a\u00f1o": "2022",
+        "kilometraje": "12500",
+        "precio_compra": "2100000",
+        "precio_venta": "14500000",
+        "estado": "OK"
+    }
+]

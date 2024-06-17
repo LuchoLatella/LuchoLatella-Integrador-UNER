@@ -5,7 +5,10 @@ import os
 def cargar_transacciones():
     if os.path.exists('data/transacciones.json'):
         with open('data/transacciones.json', 'r') as archivo:
-            return json.load(archivo)
+            try:
+                return json.load(archivo)
+            except json.JSONDecodeError:
+                return []
     else:
         return []
 

@@ -5,7 +5,10 @@ import os
 def cargar_clientes():
     if os.path.exists('data/clientes.json'):
         with open('data/clientes.json', 'r') as archivo:
-            return json.load(archivo)
+            try:
+                return json.load(archivo)
+            except json.JSONDecodeError:
+                return []
     else:
         return []
 
