@@ -34,5 +34,23 @@
         "fecha": "14/6/2024",
         "monto": "14500000",
         "observaciones": ""
+    },
+    {
+        "id": 5,
+        "id_vehiculo": 1,
+        "id_cliente": 1,
+        "tipo": "Venta",
+        "fecha": "14/5/2024",
+        "monto": "13250000",
+        "observaciones": "no hay"
+    },
+    {
+        "id": 6,
+        "id_vehiculo": 3,
+        "id_cliente": 3,
+        "tipo": "Compra",
+        "fecha": "17/6/2024",
+        "monto": "14500200",
+        "observaciones": "no hay"
     }
 ]

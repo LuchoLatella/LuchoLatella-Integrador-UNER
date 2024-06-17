@@ -1,3 +1,4 @@
+
 import json
 import os
 
@@ -27,4 +28,16 @@ def agregar_transaccion(transacciones, id_vehiculo, id_cliente, tipo, fecha, mon
         "observaciones": observaciones
     }
     transacciones.append(transaccion)
-    guardar_transacciones(transacciones)  # Guardar transacciones aquí
+    guardar_transacciones(transacciones)
+
+def editar_transaccion(transacciones, id_transaccion, **kwargs):
+    for transaccion in transacciones:
+        if transaccion['id'] == id_transaccion:
+            transaccion.update(kwargs)
+            guardar_transacciones(transacciones)
+            return
+
+def eliminar_transaccion(transacciones, id_transaccion):
+    transacciones[:] = [transaccion for transaccion in transacciones if transaccion['id'] != id_transaccion]
+    guardar_transacciones(transacciones)
+    return transacciones
