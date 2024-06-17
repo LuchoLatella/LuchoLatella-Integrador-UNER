@@ -1,4 +1,3 @@
-
 import json
 import os
 
@@ -28,4 +27,4 @@ def agregar_transaccion(transacciones, id_vehiculo, id_cliente, tipo, fecha, mon
         "observaciones": observaciones
     }
     transacciones.append(transaccion)
-    guardar_transacciones(transacciones)
+    guardar_transacciones(transacciones)  # Guardar transacciones aquí

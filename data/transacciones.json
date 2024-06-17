@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "id_vehiculo": 1,
+        "id_cliente": 1,
+        "tipo": "Compra",
+        "fecha": "16/6/2024",
+        "monto": "16800000",
+        "observaciones": "la ne me gusta"
+    },
+    {
+        "id": 2,
+        "id_vehiculo": 2,
+        "id_cliente": 1,
+        "tipo": "Compra",
+        "fecha": "16/6/2024",
+        "monto": "14500000",
+        "observaciones": "NO HAY"
+    },
+    {
+        "id": 3,
+        "id_vehiculo": 2,
+        "id_cliente": 1,
+        "tipo": "Compra",
+        "fecha": "14/6/2024",
+        "monto": "14500000",
+        "observaciones": "venta sujeta a cuotas"
+    },
+    {
+        "id": 4,
+        "id_vehiculo": 1,
+        "id_cliente": 2,
+        "tipo": "Compra",
+        "fecha": "14/6/2024",
+        "monto": "14500000",
+        "observaciones": ""
+    }
+]
