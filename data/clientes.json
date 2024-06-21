@@ -16,5 +16,14 @@
         "direccion": "Av San Mart\u00edn 1253",
         "telefono": "1168116555",
         "email": "ramiro_r@yahoo.com.ar"
+    },
+    {
+        "id": 3,
+        "nombre": "Lika",
+        "apellido": "49903535",
+        "documento": "Late",
+        "direccion": "Mendez 1964",
+        "telefono": "116899656",
+        "email": "lika@lika.com"
     }
 ]

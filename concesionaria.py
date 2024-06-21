@@ -67,8 +67,8 @@ def gestionar_clientes():
         opcion = input("Seleccione una opción: ")
         if opcion == '1':
             nombre = input("Nombre: ")
-            documento = input("Documento: ")
             apellido = input("Apellido: ")
+            documento = input("Documento: ")
             direccion = input("Dirección: ")
             telefono = input("Teléfono: ")
             email = input("Correo Electrónico: ")
