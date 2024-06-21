@@ -120,7 +120,7 @@ def registrar_transacciones():
         elif opcion == '5':
             break
 
-def main():
+def menu_inicial():
     while True:
         menu()
         opcion = input("Seleccione una opción: ")
@@ -133,5 +133,4 @@ def main():
         elif opcion == '4':
             break
 
-if __name__ == "__main__":
-    main()
+    menu_inicial()
