@@ -16,13 +16,13 @@ def guardar_clientes(clientes):
     with open('data/clientes.json', 'w') as archivo:
         json.dump(clientes, archivo, indent=4)
 
-def agregar_cliente(clientes, nombre, documento, apellido, direccion, telefono, email):
+def agregar_cliente(clientes, nombre, apellido, documento, direccion, telefono, email):
     id_cliente = len(clientes) + 1
     cliente = {
         "id": id_cliente,
         "nombre": nombre,
-        "documento": documento,
         "apellido": apellido,
+        "documento": documento,
         "direccion": direccion,
         "telefono": telefono,
         "email": email
