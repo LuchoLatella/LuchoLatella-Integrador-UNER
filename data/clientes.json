@@ -7,5 +7,14 @@
         "direccion": "Carlocha 1234",
         "telefono": "1161866255",
         "email": "lane@lane.com.ar"
+    },
+    {
+        "id": 2,
+        "nombre": "Ramiro",
+        "documento": "01656899",
+        "apellido": "Ram\u00f3n",
+        "direccion": "Av San Mart\u00edn 1253",
+        "telefono": "1168116555",
+        "email": "ramiro_r@yahoo.com.ar"
     }
 ]

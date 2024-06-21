@@ -37,7 +37,7 @@ def editar_transaccion(transacciones, id_transaccion, **kwargs):
             guardar_transacciones(transacciones)
             return
 
-def eliminar_transaccion(transacciones, id_transaccion):
-    transacciones[:] = [transaccion for transaccion in transacciones if transaccion['id'] != id_transaccion]
-    guardar_transacciones(transacciones)
-    return transacciones
+# def eliminar_transaccion(transacciones, id_transaccion):
+#     transacciones[:] = [transaccion for transaccion in transacciones if transaccion['id'] != id_transaccion]
+#     guardar_transacciones(transacciones)
+#     return transacciones

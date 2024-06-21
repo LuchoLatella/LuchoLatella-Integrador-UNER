@@ -9,7 +9,7 @@
         "kilometraje": "12500",
         "precio_compra": "2100000",
         "precio_venta": "14500000",
-        "estado": "Vendido"
+        "estado": "Comprado"
     },
     {
         "id": 2,
@@ -21,6 +21,6 @@
         "kilometraje": "85000",
         "precio_compra": "300000",
         "precio_venta": "",
-        "estado": "Comprado"
+        "estado": "Vendido"
     }
 ]
