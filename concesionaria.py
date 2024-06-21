@@ -132,5 +132,4 @@ def menu_inicial():
             registrar_transacciones()
         elif opcion == '4':
             break
-
-    menu_inicial()
+menu_inicial()
